@@ -148,10 +148,11 @@ const CreatePostPage = ({ blog, isAuthenticated }) => {
           <SelectContent>
             <SelectGroup>
               <SelectLabel>Categories</SelectLabel>
-              <SelectItem value="technology">Frontend</SelectItem>
-              <SelectItem value="lifestyle">Backend</SelectItem>
-              <SelectItem value="economy">Fullstack</SelectItem>
-              <SelectItem value="business">Web3</SelectItem>
+              <SelectItem value="technology">Technology</SelectItem>
+              <SelectItem value="lifestyle">Lifestyle</SelectItem>
+              <SelectItem value="economy">Economy</SelectItem>
+              <SelectItem value="business">Business</SelectItem>
+              <SelectItem value="Politics">Politics</SelectItem>
             </SelectGroup>
           </SelectContent>
         </Select>
