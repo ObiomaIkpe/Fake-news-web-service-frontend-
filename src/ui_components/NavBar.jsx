@@ -20,7 +20,7 @@ const NavBar = ({darkMode, handleDarkMode, isAuthenticated, username, setIsAuthe
     <>
       <nav className="max-container padding-x py-6 flex justify-between items-center  gap-6 sticky top-0 z-10 bg-[#FFFFFF] dark:bg-[#141624]">
         <Link to="/" className="text-[#141624] text-2xl dark:text-[#FFFFFF]">
-          FTN
+        🥽
         </Link>
 
         
