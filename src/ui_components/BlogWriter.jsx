@@ -18,7 +18,7 @@ const BlogWriter = ({blog}) => {
         </div>
 
         <small className="text-[#696A75] text-[14px]">
-        {blog.author.first_name} {blog.author.last_name}
+        {blog.author.first_name}  {blog.author.last_name}
         </small>
       </span>
 
