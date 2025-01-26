@@ -19,7 +19,7 @@ const BlogWriter = ({blog}) => {
 
         <small className="text-[#696A75] text-[14px]">
           <pre>
-        {blog.author.first_name}  {blog.author.last_name}
+        {blog.author.first_name} {blog.author.last_name}
         </pre>
         </small>
       </span>

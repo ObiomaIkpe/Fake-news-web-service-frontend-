@@ -18,7 +18,7 @@ const Hero = ({userInfo, authUsername, toggleModal}) => {
 
       <span>
         <p className="text-[18px] text-[#181A2A] dark:text-white">
-        {userInfo?.first_name}{userInfo?.last_name}
+        {userInfo?.first_name} {userInfo?.last_name}
         </p>
         <p className="text-[14px] text-[#696A75] font-thin dark:text-[#BABABF]">
         {userInfo?.job_title || "Collaborator & Editor"}
