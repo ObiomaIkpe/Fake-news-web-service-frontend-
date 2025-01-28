@@ -13,7 +13,10 @@ const BlogCard = ({blog}) => {
                     <IoWarningOutline 
                       className="dark:text-white text-2xl cursor-pointer"
                   /> 
-                  <Italic className=" text-red-300">this blog post has been classified as fake, please verify this peice of information carefully!</Italic>
+                  <p className="italic  text-red-800">
+  This blog post has been classified as fake, please verify this piece of information carefully!
+  </p>
+
                   </span>
       )}
       <div className="w-full h-[200px] border rounded-md overflow-hidden">
