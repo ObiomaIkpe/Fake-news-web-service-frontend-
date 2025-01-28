@@ -1,6 +1,8 @@
 import {HiCalculator, HiPencilAlt} from "react-icons/hi"
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import { IoWarningOutline } from "react-icons/io5";
+
 import { BsTwitterX } from "react-icons/bs";
 import { FaYoutube } from "react-icons/fa";
 import { BASE_URL } from "@/api";
@@ -37,14 +39,13 @@ const Hero = ({userInfo, authUsername, toggleModal}) => {
         )}
 
 
-{/* {!userInfo?.is_fake && (
+{!userInfo?.is_fake && (
           <span>
-            <HiCalculator
+            <IoWarningOutline 
               className="dark:text-white text-2xl cursor-pointer"
-            
-            /> wow wow 
+          /> 
           </span>
-        )} */}
+        )}
     </div>
 
     <p className="text-[#3B3C4A] text-[16px] max-md:leading-[2rem] lg:leading-normal lg:mx-[200px] text-center dark:text-[#BABABF]">

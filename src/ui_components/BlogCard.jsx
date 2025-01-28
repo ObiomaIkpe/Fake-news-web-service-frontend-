@@ -13,6 +13,14 @@ const BlogCard = ({blog}) => {
         />
       </div>
 
+      {blog?.is_fake && (
+                  <span>
+                    <IoWarningOutline 
+                      className="dark:text-white text-2xl cursor-pointer"
+                  /> 
+                  </span>
+      )}
+
       <Badge blog={blog} />
 
       <Link to={`blogs/${blog.slug}`}>
