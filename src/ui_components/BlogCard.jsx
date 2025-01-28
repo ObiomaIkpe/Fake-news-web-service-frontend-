@@ -2,6 +2,7 @@ import Badge from "./Badge";
 import CardFooter from "./CardFooter";
   import { Link } from "react-router-dom";
 import { BASE_URL } from "@/api";
+import { IoWarningOutline } from "react-icons/io5";
 
 const BlogCard = ({blog}) => {
   return (
