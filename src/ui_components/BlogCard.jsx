@@ -3,6 +3,7 @@ import CardFooter from "./CardFooter";
   import { Link } from "react-router-dom";
 import { BASE_URL } from "@/api";
 import { IoWarningOutline } from "react-icons/io5";
+import { Italic } from "lucide-react";
 
 const BlogCard = ({blog}) => {
   return (
@@ -12,6 +13,7 @@ const BlogCard = ({blog}) => {
                     <IoWarningOutline 
                       className="dark:text-white text-2xl cursor-pointer"
                   /> 
+                  <Italic className=" text-red-300">this blog post has been classified as fake, please verify this peice of information carefully!</Italic>
                   </span>
       )}
       <div className="w-full h-[200px] border rounded-md overflow-hidden">
